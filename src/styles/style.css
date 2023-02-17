@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Rancho&family=Roboto+Condensed:wght@400;700&family=Teko:wght@400;500;600;700&display=swap');
+
+* {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+body {
+  background-color: #fafafa;
+  overflow-x: hidden;
+}
+.fa-arrow-left-long {
+  font-size: 30px;
+  color: rgb(3, 10, 32);
+}
+.fa-circle-check {
+  font-size: 30px;
+  color: rgb(3, 10, 32);
+  cursor: pointer;
+}
+.fa-square-poll-horizontal {
+  font-size: 45px;
+  color: rgb(17, 133, 133);
+}
+.fa-file-arrow-down {
+  font-size: 45px;
+  color: rgb(17, 133, 133);
+}
+textarea {
+  border: none !important;
+  background-color: #fafafa !important;
+  font-size: 30px !important;
+}
+.no-border {
+  border: none;
+  background-color: #fafafa !important;
+  font-size: 50px;
+}
+.icon-text {
+  text-decoration: none ;
+}
