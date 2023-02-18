@@ -62,16 +62,13 @@ export function NoteDetail() {
 
   return (
     <div className="container mt-5">
-      <div className="row justify-content-center mb-3 "></div>
       <div className="row d-flex justify-content-center">
-        <div className="col-12 col-md-8 col-lg-9 card shadow-sm m-2">
-          <div className="card-body">
-            <h5 className="card-title">{note.title}</h5>
-            <h6 className="card-subtitle mb-2 text-muted">
-              {showFormattedDate(note.createdAt)}
-            </h6>
-            <p className="card-text">{note.body}</p>
-          </div>
+        <div className="col-12 col-md-8 col-lg-9 m-2">
+          <h1 className="card-title">{note.title}</h1>
+          <h6 className="card-subtitle mb-2 text-muted">
+            {showFormattedDate(note.createdAt)}
+          </h6>
+          <p className="card-text fs-5">{note.body}</p>
         </div>
       </div>
       <div className="row justify-content-center mt-3">
